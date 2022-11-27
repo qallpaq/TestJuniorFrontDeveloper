@@ -1,9 +1,11 @@
-/* eslint-disable import/no-extraneous-dependencies */
-const webpack = require('webpack');
 const path = require('path');
+
+const webpack = require('webpack');
 const { merge } = require('webpack-merge');
-const common = require('./common');
+
 const envFile = require('../env/dev.json');
+
+const common = require('./common');
 
 const DIR = path.resolve(__dirname, '../../..');
 

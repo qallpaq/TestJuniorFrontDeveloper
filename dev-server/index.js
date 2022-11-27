@@ -20,7 +20,7 @@ endpoints.forEach((endpoint) => {
       res.send(endpoint.controller
         ? endpoint.controller(req)
         : {});
-    }, 1500);
+    }, 500);
   });
 });
 
